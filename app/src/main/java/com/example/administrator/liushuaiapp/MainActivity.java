@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //修改一次
+        //修改一次,直接在服务器上修改
         Log.i("<<<", "onCreate: this is first setting");
     }
 }
